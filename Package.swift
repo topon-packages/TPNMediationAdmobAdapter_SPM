@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.7.0")
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.13.0")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkAdmobAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkAdmobAdapter/13.7.0.2.9/AnyThinkAdmobAdapter-13.7.0.2.9.zip",
-            checksum: "376e2f4968b47f283376121c608464d02d950df0bf7d79d08eb8713a56e0167f"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkAdmobAdapter/131300.2.10/AnyThinkAdmobAdapter-131300.2.10.zip",
+            checksum: "241c86af302fa0f71e6a64f29a23c95f3aff7badc3a0d0f85bc7c674158a156f"
         ),
         .target(
             name: "TPNMediationAdmobAdapterTarget",
